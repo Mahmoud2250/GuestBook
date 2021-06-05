@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  border: 0;
+  font-weight: bold;
+  background-color: #f0b193d4;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #fad69d;
+  color: #496a7f;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  padding: 10px 50px;
+  box-shadow: 0px 1px 9px #b3b3b3;
+}
+.navbar .site-heading {
+  color: #5b798b;
+  font-family: "Charmonman", cursive;
+  font-size: 2rem;
+}
+.navbar .site-menu {
+  list-style: none;
+  font-size: 1.2em;
+}
+.navbar .site-menu li {
+  padding: 10px;
+}
+.navbar .site-menu a {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+.navbar .site-menu a:hover {
+  color: #5b798b;
+  text-decoration: underline solid #e2d0c6;
+  text-decoration-thickness: 3px;
+}
+
+/*# sourceMappingURL=styles.css.map */
