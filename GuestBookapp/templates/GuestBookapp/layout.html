@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,15 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
-    <link rel="stylesheet" href="syles.css">
+    <link rel="stylesheet" href="{% static 'mail/styles.css' %}">
+
     <title>
-    {% block title %}
-    GuestBook
-    {% endblock title %}
-        </title>
+        {% block title %}
+        GuestBook
+        {% endblock title %}
+    </title>
 </head>
- <!-- NAVBAR -->
- <nav class="navbar flex-container">
+<!-- NAVBAR -->
+<nav class="navbar flex-container">
     <h1 class="site-heading flex-item">
 
         GuestBook
@@ -44,12 +46,13 @@
 </nav>
 
 {% block main_section %}
-    
+
 {% endblock main_section %}
-    
+
 <footer>
 
 </footer>
+
 <body>
 </body>
 
