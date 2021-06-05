@@ -66,4 +66,14 @@ body {
   text-decoration-thickness: 3px;
 }
 
+.Site-header {
+  height: 90vh;
+  padding: 25px;
+  font-size: 2em;
+  background: url("images/wedding-invitaions.jpg");
+}
+.Site-header h4 {
+  font-weight: 100;
+}
+
 /*# sourceMappingURL=styles.css.map */
